@@ -9,7 +9,7 @@ from .models import Conference, Location, State
 
 class LocationListEncoder(ModelEncoder):
     model = Location
-    properties = ["name", "picture_url",]
+    properties = ["id", "name", "picture_url",]
 
 
 class LocationDetailEncoder(ModelEncoder):
